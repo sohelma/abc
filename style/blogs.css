@@ -6,9 +6,14 @@
   font-style: normal;
 }
 /* share start*/
+main {background-color: #F5F8FF;}
 .btn1{background-color: #4E47FF;padding:10px 25px;color: white;
 border-radius: 5px;border: none;font-size: 15px;cursor:pointer}
-.btn{margin: 0 auto;display: block;}
+.font1{font-size: 25px;}
+.para {
+    color: #c1c1c1;
+    font-size: 19px;
+}
 /* share end*/
 header{background-image: url(../image/Hero-bg.png);
 width:1340px;height:546px;
@@ -28,3 +33,9 @@ header h3{color:#4E47FF;font-size: 30px ;}
     margin-right: 267px;
     margin-bottom: 23px;
 }
+.btn{margin: 0 auto;display: block;}
+/* action */
+.action{   display: flex; justify-content: space-between;
+    align-items: center;margin: 0 140px;}
+    .action-left{padding: 100px;}
+    .action-right img{padding: 10px; border-radius: 35px}
