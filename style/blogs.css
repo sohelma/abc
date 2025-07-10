@@ -39,3 +39,18 @@ header h3{color:#4E47FF;font-size: 30px ;}
     align-items: center;margin: 0 140px;}
     .action-left{padding: 100px;}
     .action-right img{padding: 10px; border-radius: 35px}
+    /* users */
+    .user {
+       text-align: center;
+    background-color: #d5eaf1;
+    padding: 5px;
+    border-radius: 15px;
+    margin: 0 152px;
+    }   
+    .user-count{display: flex;justify-content: space-around;}
+    .user-count h1{color: #4E47FF;font-weight: 700;font-size: 55px;margin:0}
+    .para1 {
+    color: #8d8b8b;
+    font-size: 19px;
+    margin-top: 0px;
+}
