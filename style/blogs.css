@@ -1,1 +1,30 @@
-header h2{background-color: pink;}
+
+/* google font */
+.inter-normal{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+/* share start*/
+.btn1{background-color: #4E47FF;padding:10px 25px;color: white;
+border-radius: 5px;border: none;font-size: 15px;cursor:pointer}
+.btn{margin: 0 auto;display: block;}
+/* share end*/
+header{background-image: url(../image/Hero-bg.png);
+width:1340px;height:546px;
+
+}
+nav{
+    display: flex;justify-content: space-between;align-items: center;
+margin:0px 150px;
+
+}
+header h3{color:#4E47FF;font-size: 30px ;}
+.header-ttl{font-weight: 740;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 174px;
+    margin-left: 267px;
+    margin-right: 267px;
+    margin-bottom: 23px;
+}
