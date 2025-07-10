@@ -37,15 +37,15 @@ header h3{color:#4E47FF;font-size: 30px ;}
 /* action */
 .action{   display: flex; justify-content: space-between;
     align-items: center;margin: 0 140px;}
-    .action-left{padding: 100px;}
+    .action-left{padding:30px;}
     .action-right img{padding: 10px; border-radius: 35px}
     /* users */
     .user {
-       text-align: center;
+    text-align: center;
     background-color: #d5eaf1;
     padding: 5px;
     border-radius: 15px;
-    margin: 0 152px;
+    margin:60px 157px;
     }   
     .user-count{display: flex;justify-content: space-around;}
     .user-count h1{color: #4E47FF;font-weight: 700;font-size: 55px;margin:0}
@@ -54,3 +54,22 @@ header h3{color:#4E47FF;font-size: 30px ;}
     font-size: 19px;
     margin-top: 0px;
 }
+/* say */
+.say {
+    margin: 100px 150px;}
+.say h1{text-align: center;}
+.say-end {
+    display: flex;gap: 20px;align-items: center;
+}
+.card-content{display: flex;justify-content: space-around;gap:15px}
+.card {
+    background-color: white;
+    border-radius: 20px;
+    padding: 22px;
+}
+.say-end img {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
+.para2{font-size:19px;font-weight:650;color: #747474;margin-bottom: 2px}
