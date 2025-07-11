@@ -1,30 +1,37 @@
 
-/* google font */
-.inter-normal{
+/* google-font */
+.inter-normal {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
+  font-weight:weight;
+  font-style: normal;
+}
+.raleway-normal {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:weight;
   font-style: normal;
 }
 /* share start*/
 main {background-color: #F5F8FF;}
-.btn1{background-color: #4E47FF;padding:10px 25px;color: white;
+.btn1{background-color: #4E47FF;padding:14px 25px;color: white;
 border-radius: 5px;border: none;font-size: 15px;cursor:pointer}
-.font1{font-size: 25px;}
+.btn1:hover{background-color: rgb(137, 137, 245);color: black;}
+.font1{font-size: 40px;}
 .para {
     color: #c1c1c1;
-    font-size: 19px;
+    font-size: 17px;
 }
-/* share end*/
-header{background-image: url(../image/Hero-bg.png);
-width:1340px;height:546px;
 
-}
-nav{
-    display: flex;justify-content: space-between;align-items: center;
+/* share end*/
+
+header{background-image: url(../image/Hero-bg.png);
+width:1340px;height:460px;}
+nav{display: flex;justify-content: space-between;align-items: center;
 margin:0px 150px;
 
 }
-header h3{color:#4E47FF;font-size: 30px ;}
+header h3{color:#4E47FF;font-size: 30px ;font-weight: 800;}
 .header-ttl{font-weight: 740;
     font-size: 50px;
     text-align: center;
@@ -35,19 +42,22 @@ header h3{color:#4E47FF;font-size: 30px ;}
 }
 .btn{margin: 0 auto;display: block;}
 /* action */
-.action{   display: flex; justify-content: space-between;
+.action{ display: flex; justify-content: space-between;
     align-items: center;margin: 0 140px;}
-    .action-left{padding:30px;}
+    .action-left{padding:30px;width: 30%;}
+    .action-right{padding:30px;width: 38%;padding-top: 85px;}
     .action-right img{padding: 10px; border-radius: 35px}
     /* users */
     .user {
     text-align: center;
-    background-color: #d5eaf1;
+    background-color: #D6DDED;;
     padding: 5px;
     border-radius: 15px;
     margin:60px 157px;
-    }   
+    } 
+    .user:hover{box-shadow: 10px 10px 10px gray;}  
     .user-count{display: flex;justify-content: space-around;}
+    .user-count:hover{font-weight: 800;}
     .user-count h1{color: #4E47FF;font-weight: 700;font-size: 55px;margin:0}
     .para1 {
     color: #8d8b8b;
@@ -55,11 +65,10 @@ header h3{color:#4E47FF;font-size: 30px ;}
     margin-top: 0px;
 }
 /* say */
-.say {
-    margin: 100px 150px;}
-.say h1{text-align: center;}
-.say-end {
-    display: flex;gap: 20px;align-items: center;
+.say { margin: 100px 150px;}
+.say h1{text-align: center; font-size: 32px;}
+.say p{color:rgb(105, 105, 105)}
+.say-end { display: flex;gap: 20px;align-items: center;
 }
 .card-content{display: flex;justify-content: space-around;gap:15px}
 .card {
@@ -67,12 +76,14 @@ header h3{color:#4E47FF;font-size: 30px ;}
     border-radius: 20px;
     padding: 22px;
 }
+.card:hover{box-shadow: 10px 10px 20px #4E47FF;cursor: progress;}
 .say-end img {
     border-radius: 50%;
     width: 60px;
     height: 60px;
 }
 .para2{font-size:19px;font-weight:650;color: #747474;margin-bottom: 2px}
+
 /* focus */
 .focus{text-align: center;background-color: white;margin: 50px 160px;
 border-radius: 10px;border-radius: 10px;
@@ -80,28 +91,31 @@ border-radius: 10px;border-radius: 10px;
 }
 .focus button{display: block;margin: 29px auto}
 .focus img{border-radius: 30px ;}
-/* touch */
 
+/* touch */
 .touch{display: flex;justify-content: space-between;
 margin: 40px 165px;align-items: center;gap:91px; 
 padding-bottom:65px}
-.touch h1{font-size: 60px;font-weight: 800; width: 100%;}
+.touch h1{font-size: 70px;font-weight: 700; width: 100%;}
 .form input{width: 100%;height: 50px;margin-bottom: 10px;margin-top: 3px;
 border-radius: 7px;border:2px solid rgb(235, 244, 247)}
-.form textarea{width:100%;height: 150px;border-radius: 7px;border:2px solid rgb(235, 244, 247);
+.form textarea{width:100%;height: 130px;border-radius: 7px;border:2px solid rgb(235, 244, 247);
 margin-bottom: 20px;margin-top: 3px;}
 .form button{width: 100%;}
 .form input placeholder{margin-left: 10px;}
 input::placeholder {
-  color:#c1c1c1;
-  padding-left: 15px;padding-top: 10px;
+  color:#c1c1c1;padding-left: 15px;padding-top: 10px;
 }
-textarea::placeholder {
-  color:#c1c1c1;
+textarea::placeholder {color:#c1c1c1;
   padding-left: 15px;padding-top: 10px;
 }
 /* footer */
 footer{background-color: white;text-align: center;margin: 70px 370px;}
 .footer-tag{display: flex;justify-content: center;}
-
-.footer-tag a{margin-right: 29px;}
+footer h3{color: #4E47FF;
+    font-size: 80px;
+    font-weight: 800;
+    margin-bottom: 15px;}
+.footer-tag a{margin-right: 29px;text-decoration: none;
+color:#747474;}
+.footer-tag a:hover{text-decoration:underline;color: #4E47FF}
