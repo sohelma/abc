@@ -100,3 +100,8 @@ textarea::placeholder {
   color:#c1c1c1;
   padding-left: 15px;padding-top: 10px;
 }
+/* footer */
+footer{background-color: white;text-align: center;margin: 70px 370px;}
+.footer-tag{display: flex;justify-content: center;}
+
+.footer-tag a{margin-right: 29px;}
